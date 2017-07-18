@@ -3,6 +3,9 @@ package Array;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * Find a pair in the input array whose sum is equal to a given number.
+ */
 public class PairWithGivenSum {
 
     public static void main(String[] args) {
