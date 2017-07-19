@@ -1,8 +1,7 @@
-package Array;
+package ds.array;
 
 import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 
 /**
@@ -26,7 +25,7 @@ public class AllSubArrayWith0Sum {
 
             if(sumOccurenceMap.containsKey(sum)){
                 for(int j=0; j<(sumOccurenceMap.get(sum).size()); j++) {
-                    System.out.println(i + " .. " + (sumOccurenceMap.get(sum).get(j)+1));
+                    System.out.println(i + " " + (sumOccurenceMap.get(sum).get(j)+1));
                 }
             }
             allSubArrayWith0Sum.insertIntoMap(sumOccurenceMap, sum, i);
